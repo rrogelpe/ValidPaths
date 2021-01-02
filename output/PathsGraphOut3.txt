@@ -1,0 +1,108 @@
+*****************************************
+   MATRIX 1: STRUCTURE
+*****************************************
+1 1 0 0 0
+0 1 1 0 0
+0 0 0 1 0
+0 0 0 0 0
+0 0 1 1 0
+*****************************************
+   MATRIX 1: PATHS
+*****************************************
+DFS(Source = 1, Sink = 1)
+Path: 11
+DFS(Source = 1, Sink = 2)
+Path: 12
+DFS(Source = 1, Sink = 3)
+Path: 123
+DFS(Source = 1, Sink = 4)
+Path: 1234
+DFS(Source = 1, Sink = 5)
+No path from 1 to 5
+DFS(Source = 2, Sink = 1)
+No path from 2 to 1
+DFS(Source = 2, Sink = 2)
+Path: 22
+DFS(Source = 2, Sink = 3)
+Path: 23
+DFS(Source = 2, Sink = 4)
+Path: 234
+DFS(Source = 2, Sink = 5)
+No path from 2 to 5
+DFS(Source = 3, Sink = 1)
+No path from 3 to 1
+DFS(Source = 3, Sink = 2)
+No path from 3 to 2
+DFS(Source = 3, Sink = 3)
+No path from 3 to 3
+DFS(Source = 3, Sink = 4)
+Path: 34
+DFS(Source = 3, Sink = 5)
+No path from 3 to 5
+DFS(Source = 4, Sink = 1)
+No path from 4 to 1
+DFS(Source = 4, Sink = 2)
+No path from 4 to 2
+DFS(Source = 4, Sink = 3)
+No path from 4 to 3
+DFS(Source = 4, Sink = 4)
+No path from 4 to 4
+DFS(Source = 4, Sink = 5)
+No path from 4 to 5
+DFS(Source = 5, Sink = 1)
+No path from 5 to 1
+DFS(Source = 5, Sink = 2)
+No path from 5 to 2
+DFS(Source = 5, Sink = 3)
+Path: 53
+DFS(Source = 5, Sink = 4)
+Path: 534
+Path: 54
+DFS(Source = 5, Sink = 5)
+No path from 5 to 5
+*****************************************
+   MATRIX 2: STRUCTURE
+*****************************************
+0 0 0 0
+0 0 0 0
+0 0 1 1
+0 0 1 1
+*****************************************
+   MATRIX 2: PATHS
+*****************************************
+DFS(Source = 1, Sink = 1)
+No path from 1 to 1
+DFS(Source = 1, Sink = 2)
+No path from 1 to 2
+DFS(Source = 1, Sink = 3)
+No path from 1 to 3
+DFS(Source = 1, Sink = 4)
+No path from 1 to 4
+DFS(Source = 2, Sink = 1)
+No path from 2 to 1
+DFS(Source = 2, Sink = 2)
+No path from 2 to 2
+DFS(Source = 2, Sink = 3)
+No path from 2 to 3
+DFS(Source = 2, Sink = 4)
+No path from 2 to 4
+DFS(Source = 3, Sink = 1)
+No path from 3 to 1
+DFS(Source = 3, Sink = 2)
+No path from 3 to 2
+DFS(Source = 3, Sink = 3)
+Path: 33
+Path: 343
+DFS(Source = 3, Sink = 4)
+Path: 34
+DFS(Source = 4, Sink = 1)
+No path from 4 to 1
+DFS(Source = 4, Sink = 2)
+No path from 4 to 2
+DFS(Source = 4, Sink = 3)
+Path: 43
+DFS(Source = 4, Sink = 4)
+Path: 434
+Path: 44
+
+End of File... program will now terminate

@@ -1,0 +1,215 @@
+*****************************************
+   MATRIX 1: STRUCTURE
+*****************************************
+0 1 1 0
+1 1 1 1 
+1 0 0 0 
+1 1 0 1
+*****************************************
+   MATRIX 1: PATHS
+*****************************************
+DFS(Source = 1, Sink = 1)
+Path: 121
+Path: 1231
+Path: 1241
+Path: 131
+DFS(Source = 1, Sink = 2)
+Path: 12
+DFS(Source = 1, Sink = 3)
+Path: 123
+Path: 13
+DFS(Source = 1, Sink = 4)
+Path: 124
+DFS(Source = 2, Sink = 1)
+Path: 21
+Path: 231
+Path: 241
+DFS(Source = 2, Sink = 2)
+Path: 212
+Path: 22
+Path: 2312
+Path: 2412
+Path: 242
+DFS(Source = 2, Sink = 3)
+Path: 213
+Path: 23
+Path: 2413
+DFS(Source = 2, Sink = 4)
+Path: 24
+DFS(Source = 3, Sink = 1)
+Path: 31
+DFS(Source = 3, Sink = 2)
+Path: 312
+DFS(Source = 3, Sink = 3)
+Path: 3123
+Path: 313
+DFS(Source = 3, Sink = 4)
+Path: 3124
+DFS(Source = 4, Sink = 1)
+Path: 41
+Path: 421
+Path: 4231
+DFS(Source = 4, Sink = 2)
+Path: 412
+Path: 42
+DFS(Source = 4, Sink = 3)
+Path: 4123
+Path: 413
+Path: 4213
+Path: 423
+DFS(Source = 4, Sink = 4)
+Path: 4124
+Path: 424
+Path: 44
+*****************************************
+   MATRIX 2: STRUCTURE
+*****************************************
+0 1 0 1 1 0
+1 0 0 1 1 0
+0 0 1 0 0 1
+0 0 0 0 1 0
+1 0 0 0 0 0
+0 0 1 0 0 1
+*****************************************
+   MATRIX 2: PATHS
+*****************************************
+DFS(Source = 1, Sink = 1)
+Path: 121
+Path: 12451
+Path: 1251
+Path: 1451
+Path: 151
+DFS(Source = 1, Sink = 2)
+Path: 12
+DFS(Source = 1, Sink = 3)
+No path from 1 to 3
+DFS(Source = 1, Sink = 4)
+Path: 124
+Path: 14
+DFS(Source = 1, Sink = 5)
+Path: 1245
+Path: 125
+Path: 145
+Path: 15
+DFS(Source = 1, Sink = 6)
+No path from 1 to 6
+DFS(Source = 2, Sink = 1)
+Path: 21
+Path: 2451
+Path: 251
+DFS(Source = 2, Sink = 2)
+Path: 212
+Path: 24512
+Path: 2512
+DFS(Source = 2, Sink = 3)
+No path from 2 to 3
+DFS(Source = 2, Sink = 4)
+Path: 214
+Path: 24
+Path: 2514
+DFS(Source = 2, Sink = 5)
+Path: 2145
+Path: 215
+Path: 245
+Path: 25
+DFS(Source = 2, Sink = 6)
+No path from 2 to 6
+DFS(Source = 3, Sink = 1)
+No path from 3 to 1
+DFS(Source = 3, Sink = 2)
+No path from 3 to 2
+DFS(Source = 3, Sink = 3)
+Path: 33
+Path: 363
+DFS(Source = 3, Sink = 4)
+No path from 3 to 4
+DFS(Source = 3, Sink = 5)
+No path from 3 to 5
+DFS(Source = 3, Sink = 6)
+Path: 36
+DFS(Source = 4, Sink = 1)
+Path: 451
+DFS(Source = 4, Sink = 2)
+Path: 4512
+DFS(Source = 4, Sink = 3)
+No path from 4 to 3
+DFS(Source = 4, Sink = 4)
+Path: 45124
+Path: 4514
+DFS(Source = 4, Sink = 5)
+Path: 45
+DFS(Source = 4, Sink = 6)
+No path from 4 to 6
+DFS(Source = 5, Sink = 1)
+Path: 51
+DFS(Source = 5, Sink = 2)
+Path: 512
+DFS(Source = 5, Sink = 3)
+No path from 5 to 3
+DFS(Source = 5, Sink = 4)
+Path: 5124
+Path: 514
+DFS(Source = 5, Sink = 5)
+Path: 51245
+Path: 5125
+Path: 5145
+Path: 515
+DFS(Source = 5, Sink = 6)
+No path from 5 to 6
+DFS(Source = 6, Sink = 1)
+No path from 6 to 1
+DFS(Source = 6, Sink = 2)
+No path from 6 to 2
+DFS(Source = 6, Sink = 3)
+Path: 63
+DFS(Source = 6, Sink = 4)
+No path from 6 to 4
+DFS(Source = 6, Sink = 5)
+No path from 6 to 5
+DFS(Source = 6, Sink = 6)
+Path: 636
+Path: 66
+*****************************************
+   MATRIX 3: STRUCTURE
+*****************************************
+0 1 1 
+1 0 1 
+1 1 0
+*****************************************
+   MATRIX 3: PATHS
+*****************************************
+DFS(Source = 1, Sink = 1)
+Path: 121
+Path: 1231
+Path: 131
+Path: 1321
+DFS(Source = 1, Sink = 2)
+Path: 12
+Path: 132
+DFS(Source = 1, Sink = 3)
+Path: 123
+Path: 13
+DFS(Source = 2, Sink = 1)
+Path: 21
+Path: 231
+DFS(Source = 2, Sink = 2)
+Path: 212
+Path: 2132
+Path: 2312
+Path: 232
+DFS(Source = 2, Sink = 3)
+Path: 213
+Path: 23
+DFS(Source = 3, Sink = 1)
+Path: 31
+Path: 321
+DFS(Source = 3, Sink = 2)
+Path: 312
+Path: 32
+DFS(Source = 3, Sink = 3)
+Path: 3123
+Path: 313
+Path: 3213
+Path: 323
+
+End of File... program will now terminate
